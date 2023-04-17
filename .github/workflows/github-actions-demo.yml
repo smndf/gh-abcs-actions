@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
   workflow_call:
   push:
-  branches:
-    - main
-  paths:
-    - 'labs/**'
+    branches:
+      - main
+    paths:
+      - 'labs/**'
 
 jobs:
   Explore-GitHub-Actions:
